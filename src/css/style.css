@@ -1,0 +1,52 @@
+/* Cabeçalho */
+#cabecalho {
+    background-color: var(--amarela);
+    color: white;
+    padding: 1.5em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalho .titulo {
+    font-family: var(--titulo);
+}
+
+#cabecalho .nav ul {
+    display: flex;
+    gap: 0.5em;
+}
+#cabecalho .nav ul a {
+    color: white;
+    font-size: 1.3em;
+    border-radius: 1em;
+    padding: 0.5em;
+    transition: .4s;
+}
+#cabecalho .nav ul a:hover,
+#cabecalho .nav ul a:focus-visible {
+    background-color: white;
+    color: var(--amarela);
+    padding: 0.5em 1em;
+}
+#cabecalho .nav ul a:active {
+    background-color: var(--laranja);
+    color: white;
+    transition: .2s;
+}
+
+/* Conteúdo */
+
+
+/* Rodapé */
+
+/* Variáveis CSS */
+:root {
+    --rosa: #F2637E;
+    --roxa: #AD6AD9;
+    --verde: #04BF68;
+    --amarela: #F2BE5C;
+    --laranja: #F2A25C;
+    --titulo: 'inclusao';
+    --padrao: Arial, Helvetica, sans-serif;
+}
