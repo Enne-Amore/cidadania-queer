@@ -5,3 +5,11 @@ Iframe do lugar: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m
 Imagem do lugar: https://www.google.com.br/maps/place/Centro+de+Cidadania+LGBT%2B/@-7.1217003,-34.8809479,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipODsd37WEbt76j1-NjLGv_GMKYnMzl_teQVYtsg!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipODsd37WEbt76j1-NjLGv_GMKYnMzl_teQVYtsg%3Dw203-h196-k-no!7i2527!8i2448!4m9!3m8!1s0x7ace7e1d9ccaab7:0x59170e6cc5c569d3!8m2!3d-7.1217003!4d-34.8809479!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11c30xw5z0?entry=ttu
 
 Ícone do site: <a href="https://www.flaticon.com/br/icones-gratis/lgbt" title="lgbt ícones">Lgbt ícones criados por Freepik - Flaticon</a>
+
+Imagem do girassol arco iris: https://www.pexels.com/pt-br/foto/girassol-amarelo-com-folhas-1172742/
+
+Imagem do jardim arco iris: https://www.pexels.com/pt-br/foto/campo-de-colheita-sob-o-arco-iris-e-ceu-nublado-durante-o-dia-1542495/
+
+Imagem de fundo colorido: https://unsplash.com/pt-br/fotografias/textil-azul-rosa-e-verde-jYbKxinWQGk?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash || Foto de <a href="https://unsplash.com/pt-br/@sharonmccutcheon?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexander Grey</a> na <a href="https://unsplash.com/pt-br/fotografias/textil-azul-rosa-e-verde-jYbKxinWQGk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Imagem de arco iris pintado no chao: Foto de <a href="https://unsplash.com/pt-br/@itsalexjackman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alex Jackman</a> na <a href="https://unsplash.com/pt-br/fotografias/desenho-do-arco-iris-_Bk2NVFx7q4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> || https://unsplash.com/pt-br/fotografias/desenho-do-arco-iris-_Bk2NVFx7q4?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
