@@ -9,31 +9,232 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header id="cabecalho">
-        <h1 class="titulo"> Centro De Cidadania LGBT+ </h1>
+        <figure class="logo">
+            <img src="src/img/arco-iris.png" alt="Ícone do site: arco-íris">
+            <h1 class="titulo"> Centro De Cidadania LGBT+ </h1>
+        </figure>
 
         <nav class="nav">
             <ul>
                 <a href="#sobre" aria-label="Ver introdução sobre">
                     Sobre
                 </a>
+
                 <a href="#servicos" aria-label="Ver quais são os serviços">
                     Serviços
                 </a>
-                <a href="#contato" aria-label="Ver os contatos disponíveis">
-                    Contato
+
+                <a href="#contatos" aria-label="Ver os contatos disponíveis">
+                    Contatos
                 </a>
-                <a href="#creditos" aria-label="Ver os créditos">
-                    Créditos
+
+                <a href="#autorias" aria-label="Ver os créditos autorais de uso">
+                    Autorias
                 </a>
             </ul>
         </nav>
     </header>
 
     <main id="conteudo">
+        <section id="sobre">
+            <section class="lugar">
+                <p>
+                    Você é vulnerável socialmente e precisa de um lugar acolhedor e respeitoso?
+                </p>
 
+                <p>
+                    Esse lugar pode ser maravilhoso para você
+                </p>
+
+                <p>
+                    Qualquer pessoa com vulnerabilidade social pode acessar a um serviço gratuitamente
+                </p>
+
+                <p>
+                    Qualquer pessoa com vulnerabilidade social pode acessar a um serviço gratuitamente
+                </p>
+
+                <a href="https://maps.app.goo.gl/cThhnzZUxE4nPn3W9" aria-label="Ver localização no google maps" target="_blank" rel="external"> Ver Localização </a>
+            </section>
+
+            <section class="historia">
+                <article class="texto">
+                    <h2>História</h2>
+
+                    <ul>
+                        <li>
+                            Inaugurado em 17 de maio de 2016, Dia Internacional Do Enfretamento à LGBTFOBIA, o Centro De Cidadania LGBT+ é um órgão da prefeitura municipal ligado à Coordenadoria LGBT+ e Igualdade Racial.
+                        </li>
+                        
+                        <li>
+                            O espaço reúne inúmeros serviços voltados a população queer visando a garantir os direitos e o acesso às políticas públicas de forma integral, viabilizando a realização de oficinas e de outros serviços.
+                        </li>
+                    
+                        <li>
+                            Oficinas de capacitação para servidores dos órgãos referidos nos encaminhamentos, visando a promover um acolhimento humanizado, que respeite as especialidades da população LGBTQIAPNb+.
+                        </li>
+                    </ul>
+                </article>
+
+                <figure class="figura">
+                    <img src="src/img/arco-iris-pintado-quadrado.jpg" alt="Foto de arco-íris pintado no chão">
+                </figure>
+            </section>
+        </section>
+
+        <section id="servicos">
+            <article class="horario">
+                <span id="atributo">
+                    Horário de funcionamento:
+                </span>
+
+                <span id="dado">
+                    De segunda à sexta-feira - 8h às 15h
+                </span>
+            </article>
+
+            <section class="servicos-proprios">
+                <h2> Serviços Disponíveis </h2>
+
+                <div class="lista-de-servicos">
+                    <article class="card">
+                        <span class="material-symbols-outlined icone">
+                            psychology
+                        </span>
+
+                        <span class="texto">
+                            <h3> Psicologia </h3>
+
+                            <p>
+                                Atendimento psicológico para toda a comunidade queer de João Pessoa
+                            </p>
+                        </span>
+                    </article>
+
+                    <article class="card">
+                        <span class="material-symbols-outlined icone">
+                            volunteer_activism
+                        </span>
+
+                        <span class="texto">
+                            <h3> Acolhimento Social </h3>
+                            
+                            <p>
+                                Triagem socioeconomica com orientação e encaminhamento para os órgãos componentes. Habilitação, Saúde, Educação, Assistencia Social, etc., visando a garantir equidade no acesso às políticas públicas para todas as pessoas LGBTQIAPNb+
+                            </p>
+                        </span>
+                    </article>
+                    
+                    <article class="card">
+                        <span class="material-symbols-outlined icone">
+                            balance
+                        </span>
+
+                        <span class="texto">
+                            <h3> Assessoria Jurídica </h3>
+                            
+                            <p>
+                                Orientação acerca da retificação do prenome e gênero das pessoas travestis e trans, além das que estão em situação de violência de direitos
+                            </p>
+                        </span>
+                    </article>
+                    
+                    <article class="card">
+                        <span class="material-symbols-outlined icone">
+                            communication
+                        </span>
+
+                        <span class="texto">
+                            <h3> Serviço Social </h3>
+                            
+                            <p>
+                                Orientação e encaminhamento para a Rede De Assistência Social; Proteção Básica e Especial
+                            </p>
+                        </span>
+                    </article>
+                </div>
+            </section>
+
+            <section class="servicos-parceiros">
+                <h2> Serviços Com Parceria De ... </h2>
+
+                <div class="lista-de-parcerias">
+                    <article class="card">
+                        <div class="titulo">
+                            <span class="material-symbols-outlined icone">
+                                new_releases
+                            </span>
+
+                            <h3> FAMENE </h3>
+                        </div>
+
+                        <ul class="lista-de-servicos">
+                            <li>
+                                Ginecologia
+                            </li>
+
+                            <li>
+                                Psiquiatria
+                            </li>
+                    
+                            <li>
+                                Endocrinologista
+                            </li>
+                    
+                            <li>
+                                Demartologia
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <div class="titulo">
+                            <span class="material-symbols-outlined icone">
+                                new_releases
+                            </span>
+
+                            <h3> UNIPÊ </h3>
+                        </div>
+
+                        <ul class="lista-de-servicos">
+                            <li>
+                                Odontologia
+                            </li>
+                            
+                            <li>
+                                Exame citopalógico para mulheres lésbicas e homens trans(de acordo com suas especialidades)
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+        <aside id="emocionais">
+            <p class="rosa">
+                Você é importante
+            </p>
+
+            <p class="roxa">
+                A esperança é o que nos mantém vives
+            </p>
+
+            <p  class="amarela">
+                Uma estrela brilhante você sempre será
+            </p>
+
+            <p  class="verde">
+                Não desista de viver feliz dos seus jeitos
+            </p>
+        </aside>
     </main>
 
     <footer id="rodape">

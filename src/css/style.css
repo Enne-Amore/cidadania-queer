@@ -1,6 +1,6 @@
 /* Cabeçalho */
 #cabecalho {
-    background-color: var(--amarela);
+    background-image: linear-gradient(135deg, var(--amarela), var(--laranja));
     color: white;
     padding: 1.5em 2em;
     display: flex;
@@ -8,8 +8,18 @@
     justify-content: space-between;
 }
 
-#cabecalho .titulo {
+#cabecalho .logo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+#cabecalho .logo img {
+    width: 12%;
+    height: auto;
+}
+#cabecalho .logo .titulo {
     font-family: var(--titulo);
+    width: 50%;
 }
 
 #cabecalho .nav ul {
@@ -19,6 +29,7 @@
 #cabecalho .nav ul a {
     color: white;
     font-size: 1.3em;
+    font-weight: 500;
     border-radius: 1em;
     padding: 0.5em;
     transition: .4s;
@@ -36,7 +47,250 @@
 }
 
 /* Conteúdo */
+#conteudo #sobre .lugar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(../img/espaco-queer.png) no-repeat center fixed;
+    background-size: cover;
+    padding: 3em;
+}
+#conteudo #sobre .lugar p {
+    background-color: #000000d8;
+    color: #FFF;
+    padding: 1em;
+    border-radius: 1em;
+    font-weight: 400;
+    font-family: var(--artistica);
+    font-size: 1.2em;
+    width: max-content;
+}
+#conteudo #sobre .lugar p:nth-child(odd) {
+    transform: translateX(-200px);
+}
+#conteudo #sobre .lugar p:nth-child(even) {
+    transform: translateX(200px);
+}
+#conteudo #sobre .lugar a {
+    background-color: #0000009f;
+    color: var(--amarela);
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid var(--amarela);
+    border-radius: 2em;
+    width: max-content;
+    padding: 0.8em 1em;
+    margin-top: 1em;
+    transition: .2s;
+}
+#conteudo #sobre .lugar a:hover,
+#conteudo #sobre .lugar a:focus-visible {
+    background-color: var(--amarela);
+    color: white;
+    box-shadow: 0px 0px 4px 0px var(--amarela);
+}
+#conteudo #sobre .lugar a:active {
+    background-color: var(--laranja);
+    color: white;
+    border: 2px solid var(--laranja);
+    box-shadow: 0px 0px 4px 0px var(--laranja);
+}
 
+#conteudo #sobre .historia {
+    display: flex;
+    max-height: 100%;
+}
+#conteudo #sobre .historia .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 2em 3em 0;
+    width: 60vw;
+    height: max-content;
+    color: var(--roxa);
+}
+#conteudo #sobre .historia .texto h2 {
+    font: 2em var(--titulo);
+}
+#conteudo #sobre .historia .texto ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 1em;
+    list-style: none;
+    width: 80%;
+    line-height: 1.5em;
+}
+#conteudo #sobre .historia .texto ul li {
+    position: relative;
+}
+#conteudo #sobre .historia .texto ul li::before {
+    content: "💟";
+    position: absolute;
+    left: -8%;
+}
+#conteudo #sobre .historia .figura {
+    max-width: 40vw;
+    overflow: hidden;
+}
+#conteudo #sobre .historia .figura img {
+    width: 100%;
+    height: 100%;
+}
+
+#conteudo #servicos .horario {
+    background-color: var(--verde);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    padding: 2em;
+}
+#conteudo #servicos .horario #atributo {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#conteudo #servicos .servicos-proprios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+#conteudo #servicos .servicos-proprios h2 {
+    background-color: var(--verde);
+    color: white;
+    width: max-content;
+    text-align: center;
+    border-radius: 0 0 2em 2em;
+    padding: 0 1em 0.3em;
+    font-family: var(--titulo);
+}
+#conteudo #servicos .servicos-proprios .lista-de-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3em;
+    width: 80%;
+}
+#conteudo #servicos .servicos-proprios .lista-de-servicos .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    min-width: 25%;
+    max-width: 40%;
+}
+#conteudo #servicos .servicos-proprios .lista-de-servicos .card .icone {
+    background-color: var(--verde);
+    width: max-content;
+    font-size: 2.5em;
+    padding: 0.2em;
+    border-radius: 50%;
+    transform: translateY(20px);
+}
+#conteudo #servicos .servicos-proprios .lista-de-servicos .card .texto {
+    background-color: var(--verde);
+    padding: 1.5em 1em;
+    border-radius: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+#conteudo #servicos .servicos-proprios .lista-de-servicos .card .texto h3 {
+    font-family: var(--titulo);
+}
+
+#conteudo #servicos .servicos-parceiros {
+    background-color: var(--rosa);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 4em;
+    width: 100%;
+}
+#conteudo #servicos .servicos-parceiros .lista-de-parcerias {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 6em;
+    max-width: 48%;
+}
+#conteudo #servicos .servicos-parceiros .lista-de-parcerias .card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.4em;
+}
+#conteudo #servicos .servicos-parceiros .lista-de-parcerias .card .titulo {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+#conteudo #servicos .servicos-parceiros .lista-de-parcerias .card .lista-de-servicos {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 100%;
+}
+#conteudo #servicos .servicos-parceiros .lista-de-parcerias .card .lista-de-servicos li {
+    background-color: white;
+    color: var(--rosa);
+    padding: .5em 1em;
+    border-radius: 2em;
+    min-width: fit-content;
+    max-width: max-content;
+    line-height: 1.5em;
+}
+
+#conteudo #emocionais {
+    background: url(../img/fundo-colorido.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+#conteudo #emocionais p {
+    padding: 1em;
+    border: 2px solid;
+    border-radius: 2em;
+    width: fit-content;
+    font-weight: 500;
+}
+#conteudo #emocionais p.rosa {
+    background-color: #f2637e80;
+    border-color: var(--rosa);
+}
+#conteudo #emocionais p.roxa {
+    background-color: #ad6ad980;
+    border-color: var(--roxa);
+}
+#conteudo #emocionais p.amarela {
+    background-color: #f2be5ccc;
+    border-color: var(--laranja);
+}
+#conteudo #emocionais p.verde {
+    background-color: #04bf6880;
+    border-color: var(--verde);
+}
+#conteudo #emocionais p:nth-child(odd) {
+    transform: translateX(-200px);
+}
+#conteudo #emocionais p:nth-child(even) {
+    transform: translateX(200px);
+}
 
 /* Rodapé */
 
