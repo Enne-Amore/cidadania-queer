@@ -14,12 +14,12 @@
     gap: 1em;
 }
 #cabecalho .logo img {
-    width: 12%;
+    width: 7vw;
     height: auto;
 }
 #cabecalho .logo .titulo {
-    font-family: var(--titulo);
-    width: 50%;
+    font: 1.8em var(--titulo);
+    width: 55%;
 }
 
 #cabecalho .nav ul {
@@ -27,9 +27,8 @@
     gap: 0.5em;
 }
 #cabecalho .nav ul a {
-    color: white;
     font-size: 1.3em;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 1em;
     padding: 0.5em;
     transition: .4s;
@@ -58,9 +57,10 @@
 }
 #conteudo #sobre .lugar p {
     background-color: #000000d8;
-    color: #FFF;
+    box-shadow: 1px 1px 5px #00000013;
     padding: 1em;
     border-radius: 1em;
+    border: 1px dashed white;
     font-weight: 400;
     font-family: var(--artistica);
     font-size: 1.2em;
@@ -75,6 +75,7 @@
 #conteudo #sobre .lugar a {
     background-color: #0000009f;
     color: var(--amarela);
+    box-shadow: 1px 1px 5px #00000013;
     text-align: center;
     font-weight: 600;
     border: 2px solid var(--amarela);
@@ -143,15 +144,16 @@
 #conteudo #servicos .horario {
     background-color: var(--verde);
     color: white;
+    box-shadow: 1px 1px 5px #00000013;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5em;
-    padding: 2em;
+    padding: 1.5em;
+    font-size: 1.2em;
 }
 #conteudo #servicos .horario #atributo {
-    font-size: 1.2em;
-    font-weight: 500;
+    font: 1.2em 500;
 }
 
 #conteudo #servicos .servicos-proprios {
@@ -164,11 +166,12 @@
 #conteudo #servicos .servicos-proprios h2 {
     background-color: var(--verde);
     color: white;
+    box-shadow: 1px 1px 5px #00000013;
     width: max-content;
     text-align: center;
     border-radius: 0 0 2em 2em;
-    padding: 0 1em 0.3em;
-    font-family: var(--titulo);
+    padding: 0.3em 1em;
+    font: 1.5em var(--titulo);
 }
 #conteudo #servicos .servicos-proprios .lista-de-servicos {
     display: flex;
@@ -182,19 +185,21 @@
     flex-direction: column;
     align-items: center;
     color: white;
-    min-width: 25%;
     max-width: 40%;
 }
 #conteudo #servicos .servicos-proprios .lista-de-servicos .card .icone {
     background-color: var(--verde);
+    box-shadow: 1px 1px 5px #00000013;
     width: max-content;
     font-size: 2.5em;
     padding: 0.2em;
     border-radius: 50%;
-    transform: translateY(20px);
+    margin-bottom: -20px;
+    z-index: 1;
 }
 #conteudo #servicos .servicos-proprios .lista-de-servicos .card .texto {
     background-color: var(--verde);
+    box-shadow: 1px 1px 5px #00000013;
     padding: 1.5em 1em;
     border-radius: 2em;
     text-align: center;
@@ -210,10 +215,11 @@
 #conteudo #servicos .servicos-parceiros {
     background-color: var(--rosa);
     padding: 2em;
+    padding-bottom: 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5em;
+    gap: 1.6em;
     margin-top: 4em;
     width: 100%;
 }
@@ -245,6 +251,7 @@
 #conteudo #servicos .servicos-parceiros .lista-de-parcerias .card .lista-de-servicos li {
     background-color: white;
     color: var(--rosa);
+    box-shadow: 1px 1px 5px #00000013;
     padding: .5em 1em;
     border-radius: 2em;
     min-width: fit-content;
@@ -263,11 +270,12 @@
     gap: 3em;
 }
 #conteudo #emocionais p {
-    padding: 1em;
-    border: 2px solid;
+    padding: 0.8em 1.2em;
+    border: 2px dashed;
     border-radius: 2em;
     width: fit-content;
-    font-weight: 500;
+    font: 1.2em var(--artistica);
+    box-shadow: 1px 1px 5px #00000013;
 }
 #conteudo #emocionais p.rosa {
     background-color: #f2637e80;
@@ -292,7 +300,163 @@
     transform: translateX(200px);
 }
 
+#conteudo #topo {
+    position: fixed;
+    right: 2%;
+    bottom: 6%;
+    background-color: var(--rosa);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.158);
+    color: white;
+    border-radius: 50%;
+    padding: 1%;
+    font-size: 2.5em;
+    cursor: pointer;
+    transition-duration: .4s;
+    animation: fade .5s ease;
+}
+#conteudo #topo:hover,
+#conteudo #topo:focus-visible {
+    background-color: var(--amarela);
+}
+#conteudo #topo:active {
+    background-color: var(--laranja);
+}
+#conteudo #topo:focus-visible {
+    outline: auto;
+}
+
 /* Rodapé */
+#rodape {
+    background-color: var(--roxa);
+    padding: 2em 3em 3em;
+}
+#rodape .logo-info-tell {
+    display: flex;
+}
+#rodape,
+#rodape .logo-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+#rodape .logo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+#rodape .logo img {
+    width: 10%;
+    height: auto;
+}
+#rodape .logo .titulo {
+    font: 1.8em var(--titulo);
+    width: 40%;
+}
+
+#rodape .info-add {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 50%;
+    margin-left: 3%;
+}
+#rodape .info-add .info h3 {
+    font: 1.5em var(--artistica);
+}
+#rodape .info-add .info ul a {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    width: fit-content;
+    border-radius: 1em;
+    padding: 0.3em;
+    transition: .2s ease;
+}
+#rodape .info-add .info ul a:hover,
+#rodape .info-add .info ul a:focus-visible {
+    background-color: #ffffff2c;
+}
+#rodape .info-add .info ul a:active {
+    background-color: #ffffff4d;
+}
+
+#rodape #contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1em;
+}
+#rodape #contatos .card-tell {
+    text-align: end;
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 1em;
+    box-shadow: 1px 1px 5px #00000013;
+}
+#rodape #contatos .card-tell ul a {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.3em;
+    border-radius: 1em;
+    padding: 0.3em;
+    transition: .2s ease;
+}
+#rodape #contatos .card-tell ul a:hover,
+#rodape #contatos .card-tell ul a:focus-visible {
+    background-color: #ffffff2c;
+}
+#rodape #contatos .card-tell ul a:active {
+    background-color: #ffffff4d;
+}
+
+#rodape #autorias,
+#rodape #autorias .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#rodape #autorias {
+    gap: 2em;
+}
+#rodape #autorias .titulo hr {
+    width: 80vw;
+    border: 1.5px solid;
+    box-shadow: 2px 2px 2px 2px #00000013;
+}
+#rodape #autorias .titulo h2 {
+    background-color: white;
+    color: var(--roxa);
+    width: max-content;
+    padding: 0.5em 1em;
+    border-radius: 0 0 2em 2em;
+    box-shadow: 1px 1px 5px #00000013;
+    font: 1.5em var(--titulo);
+}
+#rodape #autorias .quadro-de-links {
+    border: 2px dashed white;
+    border-radius: 1em;
+    width: 50%;
+    padding: 0.8em;
+}
+#rodape #autorias .quadro-de-links ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#rodape #autorias .quadro-de-links ul a {
+    padding: 0.5em;
+    border-radius: 1em;
+    font: 1.2em var(--artistica);
+}
+#rodape #autorias .quadro-de-links ul a:hover,
+#rodape #autorias .quadro-de-links ul a:focus-visible {
+    background-color: #ffffff2c;
+}
+#rodape #autorias .quadro-de-links ul a:active {
+    background-color: #ffffff4d;
+}
 
 /* Variáveis CSS */
 :root {
@@ -303,4 +467,5 @@
     --laranja: #F2A25C;
     --titulo: 'inclusao';
     --padrao: Arial, Helvetica, sans-serif;
+    --artistica: 'Acme', sans-serif;
 }

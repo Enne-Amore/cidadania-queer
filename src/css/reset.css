@@ -26,6 +26,7 @@ html {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 button {
@@ -65,7 +66,7 @@ button {
     background-color: var(--laranja);
 }
 
-/* Efeito de aparecer página inteira */
+/* Animações dos elementos */
 @keyframes aparecer {
     0% {
         transform: translateX(-5px);
@@ -73,6 +74,48 @@ button {
     }
     100% {
         transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes esquerda {
+    from {
+        opacity: 0;
+        translate: -10vw 0;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes direita {
+    from {
+        opacity: 0;
+        translate: 10vw 0;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes baixo {
+    from {
+        opacity: 0;
+        translate: 0 20vh;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
         opacity: 1;
     }
 }
