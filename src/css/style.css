@@ -67,10 +67,12 @@
     width: max-content;
 }
 #conteudo #sobre .lugar p:nth-child(odd) {
-    transform: translateX(-200px);
+    animation: esquerda 2s ease-out;
+    transform: translateX(-150px);
 }
 #conteudo #sobre .lugar p:nth-child(even) {
-    transform: translateX(200px);
+    animation: direita 2s ease-out;
+    transform: translateX(250px);
 }
 #conteudo #sobre .lugar a {
     background-color: #0000009f;
@@ -84,6 +86,9 @@
     padding: 0.8em 1em;
     margin-top: 1em;
     transition: .2s;
+    animation: baixo 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 28%;
 }
 #conteudo #sobre .lugar a:hover,
 #conteudo #sobre .lugar a:focus-visible {
@@ -172,6 +177,9 @@
     border-radius: 0 0 2em 2em;
     padding: 0.3em 1em;
     font: 1.5em var(--titulo);
+    animation: cima 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 42%;
 }
 #conteudo #servicos .servicos-proprios .lista-de-servicos {
     display: flex;
@@ -186,6 +194,16 @@
     align-items: center;
     color: white;
     max-width: 40%;
+}
+#conteudo #servicos .servicos-proprios .lista-de-servicos .card:nth-child(odd) {
+    animation: esquerda 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 48%;
+}
+#conteudo #servicos .servicos-proprios .lista-de-servicos .card:nth-child(even) {
+    animation: direita 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 48%;
 }
 #conteudo #servicos .servicos-proprios .lista-de-servicos .card .icone {
     background-color: var(--verde);
@@ -226,15 +244,24 @@
 #conteudo #servicos .servicos-parceiros .lista-de-parcerias {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: auto 26%;
     gap: 6em;
-    max-width: 48%;
 }
 #conteudo #servicos .servicos-parceiros .lista-de-parcerias .card {
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 0.4em;
+}
+#conteudo #servicos .servicos-parceiros .lista-de-parcerias .card:nth-child(odd) {
+    animation: esquerda 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 48%;
+}
+#conteudo #servicos .servicos-parceiros .lista-de-parcerias .card:nth-child(even) {
+    animation: direita 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 48%;
 }
 #conteudo #servicos .servicos-parceiros .lista-de-parcerias .card .titulo {
     display: flex;
@@ -276,6 +303,9 @@
     width: fit-content;
     font: 1.2em var(--artistica);
     box-shadow: 1px 1px 5px #00000013;
+    animation: cima 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 44%;
 }
 #conteudo #emocionais p.rosa {
     background-color: #f2637e80;
@@ -304,7 +334,7 @@
     position: fixed;
     right: 2%;
     bottom: 6%;
-    background-color: var(--rosa);
+    background-color: var(--amarela);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.158);
     color: white;
     border-radius: 50%;
@@ -316,10 +346,11 @@
 }
 #conteudo #topo:hover,
 #conteudo #topo:focus-visible {
-    background-color: var(--amarela);
+    background-color: var(--laranja);
 }
 #conteudo #topo:active {
-    background-color: var(--laranja);
+    background-color: white;
+    color: var(--amarela);
 }
 #conteudo #topo:focus-visible {
     outline: auto;
@@ -328,7 +359,7 @@
 /* Rodapé */
 #rodape {
     background-color: var(--roxa);
-    padding: 2em 3em 3em;
+    padding: 2em 3em 4em;
 }
 #rodape .logo-info-tell {
     display: flex;
@@ -433,12 +464,18 @@
     border-radius: 0 0 2em 2em;
     box-shadow: 1px 1px 5px #00000013;
     font: 1.5em var(--titulo);
+    animation: cima 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 48%;
 }
 #rodape #autorias .quadro-de-links {
     border: 2px dashed white;
     border-radius: 1em;
     width: 50%;
     padding: 0.8em;
+    animation: cima 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 38%;
 }
 #rodape #autorias .quadro-de-links ul {
     display: flex;
