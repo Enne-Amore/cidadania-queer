@@ -18,7 +18,7 @@
     height: auto;
 }
 #cabecalho .logo .titulo {
-    font: 1.8em var(--titulo);
+    font: bolder 1.8em var(--titulo);
     width: 55%;
 }
 
@@ -122,7 +122,7 @@
     color: var(--roxa);
 }
 #conteudo #sobre .historia .texto h2 {
-    font: 2em var(--titulo);
+    font: bolder 2em var(--titulo);
 }
 #conteudo #sobre .historia .texto ul {
     display: flex;
@@ -184,7 +184,7 @@
     text-align: center;
     border-radius: 0 0 2em 2em;
     padding: 0.3em 1em;
-    font: 1.5em var(--titulo);
+    font: bolder 1.5em var(--titulo);
     animation: cima 2s ease-out;
     animation-timeline: view();
     animation-range: cover -10% cover 42%;
@@ -265,12 +265,12 @@
 #conteudo #servicos .servicos-parceiros .lista-de-parcerias .card:nth-child(odd) {
     animation: esquerda 2s ease-out;
     animation-timeline: view();
-    animation-range: cover -10% cover 48%;
+    animation-range: cover -10% cover 44%;
 }
 #conteudo #servicos .servicos-parceiros .lista-de-parcerias .card:nth-child(even) {
     animation: direita 2s ease-out;
     animation-timeline: view();
-    animation-range: cover -10% cover 48%;
+    animation-range: cover -10% cover 44%;
 }
 #conteudo #servicos .servicos-parceiros .lista-de-parcerias .card .titulo {
     display: flex;
@@ -403,7 +403,7 @@
     margin-left: 3%;
 }
 #rodape .info-add .info h3 {
-    font: 1.5em var(--artistica);
+    font: bolder 1.5em var(--artistica);
 }
 #rodape .info-add .info ul a {
     display: flex;
@@ -475,7 +475,7 @@
     border-radius: 0 0 2em 2em;
     box-shadow: 1px 1px 5px #00000013;
     text-align: center;
-    font: 1.5em var(--titulo);
+    font: bolder 1.5em var(--titulo);
     animation: cima 2s ease-out;
     animation-timeline: view();
     animation-range: cover -10% cover 48%;

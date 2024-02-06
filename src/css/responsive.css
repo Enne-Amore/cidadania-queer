@@ -6,6 +6,7 @@
     }
 
     #cabecalho {
+        position: relative;
         padding: 1.5em 1em;
     }
     #cabecalho .logo {
@@ -23,11 +24,25 @@
         display: flex;
         font-size: 2.5em;
         font-weight: bold;
+        padding: 0.1em;
+        border-radius: 0.4em;
         cursor: pointer;
         transition-duration: .2s;
     }
+    #cabecalho .icone:hover,
+    #cabecalho .icone:focus-visible {
+        background-color: white;
+        color: var(--laranja);
+    }
     #cabecalho .nav {
-        display: none;
+        position: absolute;
+        right: -180%;
+        opacity: 0;
+        background-color: var(--laranja);
+        color: white;
+    }
+    #cabecalho .nav ul {
+        flex-direction: column;
     }
 
     #conteudo #sobre .lugar {
