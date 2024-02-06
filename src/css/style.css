@@ -22,6 +22,10 @@
     width: 55%;
 }
 
+#cabecalho .icone {
+    display: none;
+}
+
 #cabecalho .nav ul {
     display: flex;
     gap: 0.5em;
@@ -64,7 +68,7 @@
     font-weight: 400;
     font-family: var(--artistica);
     font-size: 1.2em;
-    width: max-content;
+    width: fit-content;
 }
 #conteudo #sobre .lugar p:nth-child(odd) {
     animation: esquerda 2s ease-out;
@@ -141,9 +145,13 @@
     max-width: 40vw;
     overflow: hidden;
 }
+#conteudo #sobre .historia .figura:hover img {
+    transform: scale(1.1);
+}
 #conteudo #sobre .historia .figura img {
     width: 100%;
     height: 100%;
+    transition: .4s ease-out;
 }
 
 #conteudo #servicos .horario {
@@ -226,7 +234,8 @@
     flex-direction: column;
     gap: 0.3em;
 }
-#conteudo #servicos .servicos-proprios .lista-de-servicos .card .texto h3 {
+#conteudo #servicos .servicos-proprios .lista-de-servicos .card .texto h3,
+#conteudo #servicos .servicos-parceiros h2 {
     font-family: var(--titulo);
 }
 
@@ -289,7 +298,7 @@
 #conteudo #emocionais {
     background: url(../img/fundo-colorido.jpg) no-repeat fixed;
     background-size: cover;
-    padding: 3em;
+    padding: 4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -301,6 +310,7 @@
     border: 2px dashed;
     border-radius: 2em;
     width: fit-content;
+    text-align: center;
     font: 1.2em var(--artistica);
     box-shadow: 1px 1px 5px #00000013;
     animation: cima 2s ease-out;
@@ -422,11 +432,12 @@
     text-align: end;
     padding: 1em;
     border: 2px solid white;
-    border-radius: 1em;
+    border-radius: 1.5em;
     box-shadow: 1px 1px 5px #00000013;
 }
 #rodape #contatos .card-tell ul a {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: end;
     gap: 0.3em;
@@ -463,6 +474,7 @@
     padding: 0.5em 1em;
     border-radius: 0 0 2em 2em;
     box-shadow: 1px 1px 5px #00000013;
+    text-align: center;
     font: 1.5em var(--titulo);
     animation: cima 2s ease-out;
     animation-timeline: view();
@@ -486,6 +498,7 @@
     padding: 0.5em;
     border-radius: 1em;
     font: 1.2em var(--artistica);
+    transition: .2s;
 }
 #rodape #autorias .quadro-de-links ul a:hover,
 #rodape #autorias .quadro-de-links ul a:focus-visible {
@@ -493,16 +506,4 @@
 }
 #rodape #autorias .quadro-de-links ul a:active {
     background-color: #ffffff4d;
-}
-
-/* Variáveis CSS */
-:root {
-    --rosa: #F2637E;
-    --roxa: #AD6AD9;
-    --verde: #04BF68;
-    --amarela: #F2BE5C;
-    --laranja: #F2A25C;
-    --titulo: 'inclusao';
-    --padrao: Arial, Helvetica, sans-serif;
-    --artistica: 'Acme', sans-serif;
 }
