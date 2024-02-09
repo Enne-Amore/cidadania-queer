@@ -145,10 +145,12 @@
     max-width: 40vw;
     overflow: hidden;
 }
-#conteudo #sobre .historia .figura:hover img {
+#conteudo #sobre .historia .figura:hover img,
+#conteudo #sobre .historia .figura:hover source {
     transform: scale(1.1);
 }
-#conteudo #sobre .historia .figura img {
+#conteudo #sobre .historia .figura img,
+#conteudo #sobre .historia .figura source {
     width: 100%;
     height: 100%;
     transition: .4s ease-out;
@@ -352,6 +354,7 @@
     font-size: 2.5em;
     cursor: pointer;
     transition-duration: .4s;
+    z-index: 1;
     animation: fade .5s ease;
 }
 #conteudo #topo:hover,
@@ -402,8 +405,14 @@
     max-width: 50%;
     margin-left: 3%;
 }
+#rodape .info-add {
+    animation: esquerda 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 44%;
+}
 #rodape .info-add .info h3 {
     font: bolder 1.5em var(--artistica);
+    letter-spacing: 0.05em;
 }
 #rodape .info-add .info ul a {
     display: flex;
@@ -412,6 +421,7 @@
     width: fit-content;
     border-radius: 1em;
     padding: 0.3em;
+    line-height: 1.4em;
     transition: .2s ease;
 }
 #rodape .info-add .info ul a:hover,
@@ -427,6 +437,11 @@
     flex-direction: column;
     align-items: end;
     gap: 1em;
+}
+#rodape #contatos {
+    animation: direita 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 48%;
 }
 #rodape #contatos .card-tell {
     text-align: end;
