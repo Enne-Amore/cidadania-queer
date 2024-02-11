@@ -50,6 +50,9 @@
 }
 
 /* Conteúdo */
+#conteudo {
+    background-color: white;
+}
 #conteudo #sobre .lugar {
     display: flex;
     flex-direction: column;
@@ -57,7 +60,9 @@
     gap: 2em;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(../img/espaco-queer.png) no-repeat center fixed;
     background-size: cover;
+    animation: fade .5s ease;
     padding: 3em;
+    padding-bottom: 4em;
 }
 #conteudo #sobre .lugar p {
     background-color: #000000d8;
@@ -65,9 +70,7 @@
     padding: 1em;
     border-radius: 1em;
     border: 1px dashed white;
-    font-weight: 400;
-    font-family: var(--artistica);
-    font-size: 1.2em;
+    font: 1.2em var(--artistica);
     width: fit-content;
 }
 #conteudo #sobre .lugar p:nth-child(odd) {
@@ -84,6 +87,7 @@
     box-shadow: 1px 1px 5px #00000013;
     text-align: center;
     font-weight: 600;
+    font-size: 1.1em;
     border: 2px solid var(--amarela);
     border-radius: 2em;
     width: max-content;
@@ -92,7 +96,7 @@
     transition: .2s;
     animation: baixo 2s ease-out;
     animation-timeline: view();
-    animation-range: cover -10% cover 28%;
+    animation-range: cover -10% cover 24%;
 }
 #conteudo #sobre .lugar a:hover,
 #conteudo #sobre .lugar a:focus-visible {
@@ -168,7 +172,8 @@
     font-size: 1.2em;
 }
 #conteudo #servicos .horario #atributo {
-    font: 1.2em 500;
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
 #conteudo #servicos .servicos-proprios {
@@ -278,6 +283,10 @@
     display: flex;
     align-items: center;
     gap: 0.3em;
+    font-family: var(--titulo);
+}
+#conteudo #servicos .servicos-parceiros .lista-de-parcerias .card .titulo h3 {
+    transform: translateY(0.14em);
 }
 #conteudo #servicos .servicos-parceiros .lista-de-parcerias .card .lista-de-servicos {
     list-style: none;
@@ -372,7 +381,7 @@
 /* Rodapé */
 #rodape {
     background-color: var(--roxa);
-    padding: 2em 3em 4em;
+    padding: 2em 3em 6em;
 }
 #rodape .logo-info-tell {
     display: flex;
