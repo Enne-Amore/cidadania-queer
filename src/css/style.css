@@ -44,7 +44,7 @@
     padding: 0.5em 1em;
 }
 #cabecalho .nav ul a:active {
-    background-color: var(--laranja);
+    background-color: var(--amarela);
     color: white;
     transition: .2s;
 }
@@ -81,34 +81,38 @@
     animation: direita 2s ease-out;
     transform: translateX(250px);
 }
-#conteudo #sobre .lugar a {
-    background-color: #0000009f;
+#conteudo #sobre .lugar .botoes {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    animation: baixo 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 24%;
+}
+#conteudo #sobre .lugar .botoes a {
+    background-color: #000000d8;
     color: var(--amarela);
-    box-shadow: 1px 1px 5px #00000013;
     text-align: center;
+    text-transform: capitalize;
     font-weight: 600;
     font-size: 1.1em;
     border: 2px solid var(--amarela);
     border-radius: 2em;
-    width: max-content;
+    width: fit-content;
     padding: 0.8em 1em;
     margin-top: 1em;
     transition: .2s;
-    animation: baixo 2s ease-out;
-    animation-timeline: view();
-    animation-range: cover -10% cover 24%;
+    animation: btn 1.6s ease-out infinite alternate;
 }
 #conteudo #sobre .lugar a:hover,
 #conteudo #sobre .lugar a:focus-visible {
     background-color: var(--amarela);
     color: white;
-    box-shadow: 0px 0px 4px 0px var(--amarela);
 }
 #conteudo #sobre .lugar a:active {
     background-color: var(--laranja);
     color: white;
     border: 2px solid var(--laranja);
-    box-shadow: 0px 0px 4px 0px var(--laranja);
 }
 
 #conteudo #sobre .historia {

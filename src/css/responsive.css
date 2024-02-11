@@ -84,6 +84,10 @@
         transform: translateX(20px);
         text-align: right;
     }
+    #conteudo #sobre .lugar .botoes {
+        flex-direction: column;
+        gap: 1em;
+    }
 
     #conteudo #sobre .historia {
         flex-direction: column;
