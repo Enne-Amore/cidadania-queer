@@ -163,3 +163,14 @@ button {
         transform: scale(1);
     }
 }
+
+@keyframes nav {
+    from {
+        opacity: 0;
+        right: -30%;
+    }
+    to {
+        opacity: 1;
+        right: 0;
+    }
+}

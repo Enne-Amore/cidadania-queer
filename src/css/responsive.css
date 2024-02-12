@@ -1,24 +1,13 @@
 @charset "UTF-8";
 
+/* Padrão de todas as telas menores */
 @media screen and (max-width: 1200px) {
-    body {
-        font-size: 4vw;
-    }
-
     #cabecalho {
         position: relative;
         padding: 1.5em 1em;
     }
     #cabecalho .logo {
         gap: 0.5em;
-    }
-    #cabecalho .logo img {
-        width: 12vw;
-        height: auto;
-    }
-    #cabecalho .logo .titulo {
-        font-size: 1.5em;
-        width: 75%;
     }
     #cabecalho .icone {
         display: block;
@@ -45,17 +34,7 @@
         border: 1px dashed white;
         border-bottom-left-radius: 1em;
         z-index: 1;
-        animation: reveal .4s ease-out;
-    }
-    @keyframes reveal {
-        from {
-            opacity: 0;
-            right: -30%;
-        }
-        to {
-            opacity: 1;
-            right: 0;
-        }
+        animation: nav .4s ease-out;
     }
     #cabecalho .nav ul {
         flex-direction: column;
@@ -69,19 +48,88 @@
         padding: 1em;
     }
 
+    #conteudo #sobre .lugar p {
+        padding: 0.8em;
+    }
+
+    #rodape {
+        padding: 2.5em 3em 8em;
+        gap: 5em;
+    }
+    #rodape .logo-info-tell {
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+    }
+    #rodape .logo-info {
+        gap: 3em;
+        width: 100%;
+    }
+    #rodape .logo {
+        gap: 0.5em;
+        justify-content: center;
+    }
+    #rodape .info-add .info:nth-child(odd) {
+        animation: esquerda 2s ease-out;
+        animation-timeline: view();
+        animation-range: cover -10% cover 48%;
+    }
+    #rodape .info-add .info:nth-child(even) {
+        animation: direita 2s ease-out;
+        animation-timeline: view();
+        animation-range: cover -10% cover 48%;
+    }
+    #rodape #contatos .card-tell {
+        text-align: center;
+        font-size: 1.1em;
+        animation: baixo 2s ease-out;
+        animation-timeline: view();
+        animation-range: cover -10% cover 34%;
+    }
+    #rodape .info-add .info ul a {
+        padding: 0.5em;
+    }
+    #rodape #contatos {
+        align-items: center;
+        gap: 1.5em;
+    }
+    #rodape #contatos .card-tell h3 {
+        margin-bottom: 0.1em;
+    }
+    #rodape #contatos .card-tell .icone {
+        font-size: 1.4em;
+    }
+    #rodape #contatos .card-tell ul a {
+        justify-content: center;
+        padding: 0.5em;
+    }
+}
+
+/* Dispositivos em pé */
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+    body {
+        font-size: 4vw;
+    }
+
+    #cabecalho .logo img {
+        width: 12vw;
+        height: auto;
+    }
+    #cabecalho .logo .titulo {
+        font-size: 1.5em;
+        width: 75%;
+    }
+
     #conteudo #sobre .lugar {
         padding: 2.5em;
         padding-bottom: 5em;
     }
-    #conteudo #sobre .lugar p {
-        padding: 0.8em;
-    }
     #conteudo #sobre .lugar p:nth-child(odd) {
-        transform: translateX(-20px);
+        transform: translateX(-7%);
         text-align: left;
     }
     #conteudo #sobre .lugar p:nth-child(even) {
-        transform: translateX(20px);
+        transform: translateX(7%);
         text-align: right;
     }
     #conteudo #sobre .lugar .botoes {
@@ -139,13 +187,13 @@
     }
 
     #conteudo #emocionais {
-        padding: 3em 4em;
+        padding: 3.5em 4em 4.3em;
     }
     #conteudo #emocionais p:nth-child(odd) {
-        transform: translateX(-30px);
+        transform: translateX(-12%);
     }
     #conteudo #emocionais p:nth-child(even) {
-        transform: translateX(30px);
+        transform: translateX(12%);
     }
 
     #conteudo #topo {
@@ -154,21 +202,6 @@
         right: 4%;
     }
 
-    #rodape {
-        padding: 2.5em 3em 8em;
-        gap: 5em;
-    }
-    #rodape .logo-info-tell {
-        flex-direction: column;
-        align-items: center;
-        gap: 3em;
-    }
-    #rodape .logo-info {
-        gap: 3em;
-    }
-    #rodape .logo {
-        gap: 0.5em;
-    }
     #rodape .logo img {
         width: 14vw;
         height: auto;
@@ -179,40 +212,6 @@
     }
     #rodape .info-add {
         max-width: 100%;
-    }
-    #rodape .info-add .info:nth-child(odd) {
-        animation: esquerda 2s ease-out;
-        animation-timeline: view();
-        animation-range: cover -10% cover 48%;
-    }
-    #rodape .info-add .info:nth-child(even) {
-        animation: direita 2s ease-out;
-        animation-timeline: view();
-        animation-range: cover -10% cover 48%;
-    }
-    #rodape .info-add .info ul a {
-        padding: 0.5em;
-    }
-    #rodape #contatos {
-        align-items: center;
-        gap: 1.5em;
-    }
-    #rodape #contatos .card-tell {
-        text-align: center;
-        font-size: 1.1em;
-        animation: baixo 2s ease-out;
-        animation-timeline: view();
-        animation-range: cover -10% cover 34%;
-    }
-    #rodape #contatos .card-tell h3 {
-        margin-bottom: 0.1em;
-    }
-    #rodape #contatos .card-tell .icone {
-        font-size: 1.4em;
-    }
-    #rodape #contatos .card-tell ul a {
-        justify-content: center;
-        padding: 0.5em;
     }
     #rodape #autorias .titulo hr {
         width: 90vw;
@@ -227,5 +226,80 @@
     }
     #rodape #autorias .quadro-de-links ul a {
         font-size: 1.4em;
+    }
+}
+
+/* Dispositivos deitados */
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+    body {
+        font-size: 2.5vw;
+    }
+
+    #cabecalho .logo img {
+        width: 10vw;
+        height: auto;
+    }
+    #cabecalho .logo .titulo {
+        width: 55%;
+    }
+
+    #conteudo #sobre .lugar p {
+        width: 70%;
+    }
+    #conteudo #sobre .lugar p:nth-child(odd) {
+        transform: translateX(-20%);
+        text-align: left;
+    }
+    #conteudo #sobre .lugar p:nth-child(even) {
+        transform: translateX(20%);
+        text-align: right;
+    }
+
+    #conteudo #sobre .historia .texto {
+        width: 55vw;
+        padding: 2em 0em;
+    }
+    #conteudo #sobre .historia .texto ul li::before {
+        left: -10%;
+    }
+    #conteudo #sobre .historia .figura {
+        max-width: 45vw;
+    }
+
+    #conteudo #servicos .servicos-proprios .lista-de-servicos {
+        width: 100%;
+        gap: 2.5em;
+    }
+
+    #conteudo #servicos .servicos-parceiros .lista-de-parcerias {
+        margin: auto 8%;
+    }
+
+    #conteudo #emocionais p:nth-child(odd) {
+        transform: translateX(-20%);
+    }
+    #conteudo #emocionais p:nth-child(even) {
+        transform: translateX(20%);
+    }
+
+    #conteudo #topo {
+        font-size: 3em;
+        padding: 1.5%;
+        right: 4%;
+    }
+
+    #rodape .logo img {
+        width: 12vw;
+        height: auto;
+    }
+    #rodape .logo .titulo {
+        width: 55%;
+    }
+    #rodape .info-add {
+        max-width: 60%;
+        margin: auto;
+    }
+    #rodape #autorias .quadro-de-links {
+        width: 80%;
     }
 }
