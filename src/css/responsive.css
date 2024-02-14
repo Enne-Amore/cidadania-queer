@@ -272,7 +272,7 @@
     }
 
     #conteudo #servicos .servicos-parceiros .lista-de-parcerias {
-        margin: auto 8%;
+        margin: auto 17.5%;
     }
 
     #conteudo #emocionais p:nth-child(odd) {
@@ -296,10 +296,9 @@
         width: 40%;
     }
     #rodape .info-add {
-        max-width: 60%;
         margin: auto;
     }
     #rodape #autorias .quadro-de-links {
-        width: 80%;
+        width: 55%;
     }
 }
