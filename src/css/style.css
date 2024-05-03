@@ -2,7 +2,8 @@
 #cabecalho {
     background-image: linear-gradient(135deg, var(--amarela), var(--laranja));
     color: white;
-    padding: 1.5em 2em;
+    padding: 1.5em;
+    padding-right: 1em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,15 +12,15 @@
 #cabecalho .logo {
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: 0.6em;
 }
 #cabecalho .logo img {
-    width: 7vw;
+    width: 5vw;
     height: auto;
 }
 #cabecalho .logo .titulo {
-    font: bolder 1.8em var(--titulo);
-    width: 55%;
+    font: bolder 1.6em var(--titulo);
+    width: 85%;
 }
 
 #cabecalho .icone {
@@ -67,8 +68,8 @@
 #conteudo #sobre .lugar p {
     background-color: #000000d8;
     box-shadow: 1px 1px 5px #00000013;
-    padding: 1em;
-    border-radius: 1em;
+    padding: .8em 1em;
+    border-radius: 1.2em;
     border: 1px dashed white;
     font: 1.2em var(--artistica);
     width: fit-content;
@@ -124,7 +125,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1em;
-    padding: 2em 3em 0;
+    padding: 2em 3em;
     width: 60vw;
     height: max-content;
     color: var(--roxa);
@@ -400,15 +401,15 @@
 #rodape .logo {
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: 0.6em;
 }
 #rodape .logo img {
-    width: 10%;
+    width: 5vw;
     height: auto;
 }
 #rodape .logo .titulo {
-    font: 1.8em var(--titulo);
-    width: 40%;
+    font: bolder 1.6em var(--titulo);
+    width: 70%;
 }
 
 #rodape .info-add {
@@ -488,7 +489,7 @@
     align-items: center;
 }
 #rodape #autorias {
-    gap: 2em;
+    gap: 2.5em;
 }
 #rodape #autorias .titulo hr {
     width: 80vw;
@@ -510,7 +511,7 @@
 }
 #rodape #autorias .quadro-de-links {
     border: 2px dashed white;
-    border-radius: 1em;
+    border-radius: 2em;
     width: 50%;
     padding: 0.8em;
     animation: cima 2s ease-out;
