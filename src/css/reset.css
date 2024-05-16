@@ -6,6 +6,8 @@
     src: url(../fonts/open-dyslexic.ttf) format(truetype);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 /* Reset das tags */
 * {
     margin: 0;

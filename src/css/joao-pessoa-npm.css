@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Cabeçalho */
+#cabecalho {
+    background-image: linear-gradient(135deg, var(--amarela), var(--laranja));
+    color: white;
+    padding: 1.5em;
+    padding-right: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalho .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+}
+#cabecalho .logo img {
+    width: 5vw;
+    height: auto;
+}
+#cabecalho .logo .titulo {
+    font: bolder 1.6em var(--titulo);
+    width: 85%;
+}
+
+/* Conteúdo */
+#conteudo {
+    background: linear-gradient(180deg, var(--roxa) 0%, var(--verde) 25%, var(--amarela) 50%, var(--laranja) 75%, var(--vermelha) 100%);
+    padding: 0 26vw;
+}
+
+#conteudo ol .passo {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 2em 0;
+}
+#conteudo ol .passo .img {
+    border-radius: 30px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    width: 250px;
+    height: 90vh;
+}
