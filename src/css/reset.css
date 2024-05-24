@@ -50,8 +50,8 @@ button {
     --amarela: #F2BE5C;
     --laranja: #F2A25C;
     --titulo: 'inclusao';
-    --padrao: Arial, Helvetica, sans-serif;
-    --artistica: 'Acme', sans-serif;
+    --padrao: "Open Sans", sans-serif;
+    --artistica: "Acme", sans-serif;
 }
 
 /* Estilização da barrinha de rolagem */
@@ -154,18 +154,6 @@ button {
     }
 }
 
-@keyframes contatos {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.06);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
 @keyframes nav {
     from {
         opacity: 0;
@@ -174,5 +162,31 @@ button {
     to {
         opacity: 1;
         right: 0;
+    }
+}
+
+@keyframes passo {
+    0% {
+        opacity: 0;
+        translate: 0 -5vh;
+    }
+    50% {
+        opacity: 1;
+        translate: 0 0vh;
+    }
+    100% {
+        opacity: 0;
+        translate: 0 5vh;
+    }
+}
+
+@keyframes primeiro-passo {
+    0% {
+        opacity: 1;
+        translate: 0 0vh;
+    }
+    100% {
+        opacity: 0;
+        translate: 0 5vh;
     }
 }
