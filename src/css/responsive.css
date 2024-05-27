@@ -118,6 +118,19 @@
         font-size: 1.15em;
         width: 80%;
     }
+    #cabecalho.jpnpm .logo {
+        transform: translateX(7%);
+    }
+    #cabecalho.jpnpm .logo .titulo {
+        width: 70%;
+    }
+    #cabecalho.jpnpm .voltar {
+        top: 23%;
+        padding: .5em .6em;
+    }
+    #cabecalho.jpnpm .voltar span {
+        font: 2em;
+    }
 
     #conteudo #sobre .lugar {
         padding: 2.5em;
@@ -193,6 +206,15 @@
     }
     #conteudo #emocionais p:nth-child(even) {
         transform: translateX(12%);
+    }
+
+    #conteudo.jpnpm {
+        padding: 2em 2.5em 5em;
+    }
+    #conteudo.jpnpm #passos .passo {
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5em;
     }
 
     #conteudo #topo {
