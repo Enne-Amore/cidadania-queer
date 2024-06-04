@@ -11,13 +11,13 @@
 
 #cabecalho .voltar {
     position: absolute;
-    top: 8%;
+    top: 9%;
     left: 1%;
     border-radius: 50%;
-    padding: 1em 1.1em;
-    transition: .2s;
+    padding: 1em 1.1em .9em;
     z-index: 1;
 }
+#cabecalho .voltar:focus-visible,
 #cabecalho .voltar:hover {
     background-color: rgba(255, 255, 255, 0.15);
 }
@@ -52,7 +52,7 @@
 #conteudo #passos {
     display: flex;
     flex-direction: column;
-    gap: 20em;
+    gap: 10em;
 }
 #conteudo #passos .passo {
     display: flex;
@@ -78,13 +78,27 @@
 }
 #conteudo #passos .passo .instrucao span {
     background-color: white;
-    color: var(--roxa);
     padding: .3em .5em .2em;
     border-radius: 50%;
     height: min-content;
     width: min-content;
     font-family: var(--titulo);
     font-size: 3em;
+}
+#conteudo #passos .passo .instrucao span#primeira {
+    color: var(--roxa);
+}
+#conteudo #passos .passo .instrucao span#segunda {
+    color: var(--verde);
+}
+#conteudo #passos .passo .instrucao span#terceira {
+    color: var(--amarela);
+}
+#conteudo #passos .passo .instrucao span#quarta {
+    color: var(--laranja);
+}
+#conteudo #passos .passo .instrucao span#quinta {
+    color: var(--rosa);
 }
 #conteudo #passos .passo .instrucao p {
     font-size: 1.2em;
@@ -95,10 +109,31 @@
 }
 #conteudo #passos .passo .img {
     border-radius: 30px;
-    background: white 50% / cover no-repeat;
+    /* background: white 50% / cover no-repeat; */
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
     width: 250px;
     height: 90vh;
+}
+#conteudo #passos .passo .downloads {
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    display: flex;
+    gap: 1em;
+}
+#conteudo #passos .passo .downloads a,
+#conteudo #passos .passo .downloads a img {
+    border-radius: .5em;
+}
+#conteudo #passos .passo .downloads a:focus-visible img,
+#conteudo #passos .passo .downloads a:hover img {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.20);
+}
+#conteudo #passos .passo .downloads a:focus-visible img {
+    border: 1px solid white;
+}
+#conteudo #passos .passo .downloads a:active img {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.50);
 }
 
 #conteudo #topo {

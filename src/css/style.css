@@ -102,7 +102,6 @@
     width: fit-content;
     padding: 0.8em 1em;
     margin-top: 1em;
-    transition: .2s;
     animation: btn 1.6s ease-out infinite alternate;
 }
 #conteudo #sobre .lugar a:hover,
@@ -527,7 +526,6 @@
     padding: 0.5em;
     border-radius: 1em;
     font: 1.2em var(--artistica);
-    transition: .2s;
 }
 #rodape #autorias .quadro-de-links ul a:hover,
 #rodape #autorias .quadro-de-links ul a:focus-visible {
