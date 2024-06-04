@@ -118,11 +118,12 @@
         font-size: 1.15em;
         width: 80%;
     }
+
     #cabecalho.jpnpm .logo {
         transform: translateX(7%);
     }
     #cabecalho.jpnpm .logo .titulo {
-        width: 70%;
+        width: 65%;
     }
     #cabecalho.jpnpm .voltar {
         top: 23%;
@@ -130,6 +131,22 @@
     }
     #cabecalho.jpnpm .voltar span {
         font: 2em;
+    }
+    #conteudo.jpnpm #passos .passo:first-child {
+        margin-bottom: 12em;
+    }
+    #conteudo.jpnpm #passos .passo .img {
+        width: 70vw;
+        max-width: 500px;
+        height: 78vh;
+    }
+    #conteudo.jpnpm #passos .passo .downloads {
+        top: auto;
+        left: auto;
+        bottom: 0;
+        margin-bottom: -12em;
+        justify-content: center;
+        flex-direction: column;
     }
 
     #conteudo #sobre .lugar {
