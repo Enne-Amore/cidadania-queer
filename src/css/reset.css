@@ -6,8 +6,6 @@
     src: url(../fonts/open-dyslexic.ttf) format(truetype);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-
 /* Reset das tags */
 * {
     margin: 0;
@@ -16,11 +14,12 @@
 }
 
 body {
-    font: 1.5vw var(--padrao);
     background-color: var(--amarela);
     color: white;
-    animation: aparecer .5s ease-out;
+    font: 1.5vw var(--padrao);
+    max-width: 100vw;
     overflow-x: hidden;
+    animation: aparecer .5s ease-out;
 }
 
 html {
