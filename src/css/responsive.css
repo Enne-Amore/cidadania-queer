@@ -219,6 +219,7 @@
     }
     #conteudo.jpnpm #passos .passo:first-child {
         margin-bottom: 12em;
+        animation-range: cover 50% cover 125%;
     }
     #conteudo.jpnpm #passos .passo .img {
         width: 70vw;
