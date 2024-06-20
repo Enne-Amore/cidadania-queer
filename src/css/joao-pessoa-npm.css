@@ -46,7 +46,7 @@
 
 /* Conteúdo */
 #conteudo {
-    background: linear-gradient(180deg, var(--roxa) 0%, var(--verde) 25%, var(--amarela) 50%, var(--laranja) 75%, var(--rosa) 100%);
+    background: linear-gradient(180deg, var(--roxa) 0%, #00A9CC 20%, var(--verde) 40%, var(--amarela) 60%, var(--laranja) 80%, var(--rosa) 100%);
     padding: 2.5em 20vw;
 }
 
@@ -91,15 +91,18 @@
     color: var(--roxa);
 }
 #conteudo #passos .passo .instrucao span#segunda {
-    color: var(--verde);
+    color: #00A9CC;
 }
 #conteudo #passos .passo .instrucao span#terceira {
-    color: var(--amarela);
+    color: var(--verde);
 }
 #conteudo #passos .passo .instrucao span#quarta {
-    color: var(--laranja);
+    color: var(--amarela);
 }
 #conteudo #passos .passo .instrucao span#quinta {
+    color: var(--laranja);
+}
+#conteudo #passos .passo .instrucao span#sexta {
     color: var(--rosa);
 }
 #conteudo #passos .passo .instrucao p {

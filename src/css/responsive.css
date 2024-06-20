@@ -48,6 +48,10 @@
         padding: 0.7em 0.9em 0.8em;
     }
 
+    #conteudo.jpnpm #passos .passo .downloads {
+        flex-direction: column;
+    }
+
     #rodape {
         padding: 2.5em 3em 8em;
         gap: 5em;
@@ -231,7 +235,6 @@
         bottom: 0;
         margin-bottom: -12em;
         justify-content: center;
-        flex-direction: column;
     }
     #conteudo.jpnpm #passos .passo .downloads a {
         width: 50vw;
@@ -321,6 +324,14 @@
     }
     #conteudo #emocionais p:nth-child(even) {
         transform: translateX(20%);
+    }
+
+    #conteudo.jpnpm {
+        padding: 2em 5em 5em;
+    }
+    #conteudo #passos .passo .downloads {
+        top: 20%;
+        left: 15%;
     }
 
     #conteudo #topo {
