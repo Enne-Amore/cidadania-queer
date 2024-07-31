@@ -1,4 +1,4 @@
-# 🏳️‍🌈 Centro De Cidadania LGBT+
+# 🏳️‍🌈 Coordenadoria de Promoção a Cidadania LGBT+ e Igualdade Racial
 
  Website de divulgação de um espaço público focado na população queer, além de incluir também outras comunidades vulneráveis socialmente
 
@@ -25,6 +25,7 @@
  - CSS
  - JavaScript
 
+
 ## 🌈 Documentação De Cores
 
 | Cor           | Hexadecimal                                                         |
@@ -50,5 +51,5 @@
 
 ## 🔧 Suporte
 
-Para me contatar como suporte, o meu email é EnneFofe10@gmail.com 
+ Para me contatar como suporte, o meu email é EnneFofe10@gmail.com 
 
