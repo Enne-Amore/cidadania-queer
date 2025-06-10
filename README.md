@@ -16,25 +16,32 @@
 
 ## ✅ Demonstração
 
- [Clique aqui para acessar o meu site](https://enne-amore.github.io/cidadania-queer/)
+ [Clique aqui para acessar o website](https://enne-amore.github.io/cidadania-queer/)
+
+
+## 🎞️ Pré-visualização
+
+ <img src="src/img/preview.gif" alt="Pré-visualização do site" width="340" height="200">
 
 
 ## 🚀 Tecnologias Utilizadas
 
- - HTML
- - CSS
- - JavaScript
+ <p align="left">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS" alt="CSS" width="40" height="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
+  </p>
 
 
 ## 🌈 Documentação De Cores
 
-| Cor           | Hexadecimal                                                         |
-| ------------- | ------------------------------------------------------------------- |
-| Rosa          | ![#f2637e](https://via.placeholder.com/10/f2637e?text=+) #f2637e    |
-| Roxa          | ![#ad6ad9](https://via.placeholder.com/10/ad6ad9?text=+) #ad6ad9    |
-| Verde         | ![#04bf68](https://via.placeholder.com/10/04bf68?text=+) #04bf68    |
-| Amarela       | ![#f2be5c](https://via.placeholder.com/10/f2be5c?text=+) #f2be5c    |
-| Laranja       | ![#f2a25c](https://via.placeholder.com/10/f2a25c?text=+) #f2a25c    |
+| Cor     | Hexadecimal |
+| ------- | ----------- |
+| Rosa    | `#f2637e`   |
+| Roxa    | `#ad6ad9`   |
+| Verde   | `#04bf68`   |
+| Amarela | `#f2be5c`   |
+| Laranja | `#f2a25c`   |
 
 
 ## 🌟 Referências De Uso
