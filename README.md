@@ -35,13 +35,13 @@
 
 ## 🌈 Documentação De Cores
 
-| Cor           | Hexadecimal                                                         |
-| ------------- | ------------------------------------------------------------------- |
-| Rosa          | ![#f2637e](https://via.placeholder.com/10/f2637e?text=+) #f2637e    |
-| Roxa          | ![#ad6ad9](https://via.placeholder.com/10/ad6ad9?text=+) #ad6ad9    |
-| Verde         | ![#04bf68](https://via.placeholder.com/10/04bf68?text=+) #04bf68    |
-| Amarela       | ![#f2be5c](https://via.placeholder.com/10/f2be5c?text=+) #f2be5c    |
-| Laranja       | ![#f2a25c](https://via.placeholder.com/10/f2a25c?text=+) #f2a25c    |
+| Cor     | Hexadecimal |
+| ------- | ----------- |
+| Rosa    | `#f2637e`   |
+| Roxa    | `#ad6ad9`   |
+| Verde   | `#04bf68`   |
+| Amarela | `#f2be5c`   |
+| Laranja | `#f2a25c`   |
 
 
 ## 🌟 Referências De Uso
