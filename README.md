@@ -3,7 +3,17 @@
  Website de divulgação de um espaço público focado na população queer, além de incluir também outras comunidades vulneráveis socialmente
 
  
-## 🪄 Funcionalidades
+## 🌐 Aplicação Hospedada
+
+ [Clique aqui para acessar o website](https://enne-amore.github.io/cidadania-queer/)
+
+
+## 🎞️ Pré-visualização
+
+ <img src="img/preview.gif" alt="Pré-visualização do site" width="340" height="200">
+
+
+## ⚡ Funcionalidades
 
  - Menu de navegação por seções abrível e fechável para telas menores
  - Barra horizontal de navegação por dentro da página para telas maiores
@@ -14,37 +24,93 @@
  - Botão de voltar ao topo da página
 
 
-## ✅ Demonstração
-
- [Clique aqui para acessar o website](https://enne-amore.github.io/cidadania-queer/)
-
-
-## 🎞️ Pré-visualização
-
- <img src="src/img/preview.gif" alt="Pré-visualização do site" width="340" height="200">
-
-
 ## 🚀 Tecnologias Utilizadas
 
  <p align="left">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS" alt="CSS" width="40" height="40"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/2048px-Official_CSS_Logo.svg.png" title="CSS" alt="CSS" width="40" height="40"/>
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
   </p>
 
 
-## 🌈 Documentação De Cores
+## 📂 Estrutura do Projeto
 
-| Cor     | Hexadecimal |
-| ------- | ----------- |
-| Rosa    | `#f2637e`   |
-| Roxa    | `#ad6ad9`   |
-| Verde   | `#04bf68`   |
-| Amarela | `#f2be5c`   |
-| Laranja | `#f2a25c`   |
+ ```plaintext
+ cidadania-queer/
+ ├── css/                    # Arquivos CSS
+ │   ├── img-iframe.css       
+ │   ├── joao-pessoa-npm.css
+ │   ├── reset.css       
+ │   ├── responsive.css  
+ │   ├── style.css       
+ ├── docs/                   # Arquivos de documentação do projeto
+ │   ├── prototipos-de-tela/
+ │   ├── autorias.txt
+ ├── fonts/                  # Arquivos das fontes utilizadas  
+ │   ├── open-dyslexic.ttf
+ ├── img/                    # Imagens utilizadas 
+ ├── js/                     # Arquivos JavaScript
+ │   ├── menu.js 
+ │   ├── topo.js
+ ├── view/                     # Arquivos de páginas secundárias
+ │   ├── frames/
+ │   ├── joao-pessoa-npm.html
+ ├── .gitattributes
+ ├── index.html              # Arquivo principal de renderização
+ ├── LICENSE                 # Arquivo de licença do projeto
+ ├── README.md
+ ```
 
 
-## 🌟 Referências De Uso
+## 🛠️ Instalação Local
+
+ 1. **Clone o repositório**
+ 
+ No terminal, rode o seguinte comando:
+ 
+ ```bash
+ git clone https://github.com/Enne-Amore/cidadania-queer.git
+ ```
+ 
+ 2. **Entre no arquivo "index.html"**
+ 
+ 3. **Rode o arquivo principal de renderização:**
+ 
+ Clique com o botão direito do mouse e selecione a seguinte opção:
+ 
+ ```bash
+ Open with Live Server
+ ```
+
+
+## 🌈 Cores
+
+ | Cor     | Hexadecimal |
+ | ------- | ----------- |
+ | Rosa    | `#F2637E`   |
+ | Roxa    | `#AD6AD9`   |
+ | Verde   | `#04BF68`   |
+ | Amarela | `#F2BE5C`   |
+ | Laranja | `#F2A25C`   |
+
+
+## 🔤 Fontes Tipográficas
+
+ - **Open Dyslexic Alta**  
+   Exemplo de uso:  
+   `font-family: "inclusao";` ou 
+   `font-family: var(--inclusao);`
+ - **Acme**  
+   Exemplo de uso:  
+   `font-family: "Acme";` ou 
+   `font-family: var(--artistica);`
+ - **Open Sans**  
+   Exemplo de uso:  
+   `font-family: "Open Sans";` ou 
+   `font-family: var(--padrao);`
+
+
+## 🌟 Referências de Uso
 
  - [Fontes - Rel Preconnect](https://fonts.googleapis.com)
  - [Fontes - Rel Preconnect Crossorigin](https://fonts.gstatic.com)
@@ -58,5 +124,5 @@
 
 ## 🔧 Suporte
 
- Para me contatar como suporte, o meu email é Enne.Pessoa@gmail.com 
+ Para me contatar como suporte, o meu email é [Enne.Pessoa@gmail.com](mailto:Enne.Pessoa@gmail.com)
 
