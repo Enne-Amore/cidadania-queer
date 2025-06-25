@@ -45,7 +45,7 @@ button {
     --verde: #04BF68;
     --amarela: #F2BE5C;
     --laranja: #F2A25C;
-    --titulo: 'inclusao';
+    --titulo: "inclusao", sans-serif;
     --padrao: "Open Sans", sans-serif;
     --artistica: "Acme", sans-serif;
 }

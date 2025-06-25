@@ -87,11 +87,27 @@
 
  | Cor     | Hexadecimal |
  | ------- | ----------- |
- | Rosa    | `#f2637e`   |
- | Roxa    | `#ad6ad9`   |
- | Verde   | `#04bf68`   |
- | Amarela | `#f2be5c`   |
- | Laranja | `#f2a25c`   |
+ | Rosa    | `#F2637E`   |
+ | Roxa    | `#AD6AD9`   |
+ | Verde   | `#04BF68`   |
+ | Amarela | `#F2BE5C`   |
+ | Laranja | `#F2A25C`   |
+
+
+## 🔤 Fontes Tipográficas
+
+ - **Open Dyslexic Alta**  
+   Exemplo de uso:  
+   `font-family: "inclusao";` ou 
+   `font-family: var(--inclusao);`
+ - **Geometos Rounded**  
+   Exemplo de uso:  
+   `font-family: "Acme";` ou 
+   `font-family: var(--artistica);`
+ - **Open Sans**  
+   Exemplo de uso:  
+   `font-family: "Open Sans";` ou 
+   `font-family: var(--padrao);`
 
 
 ## 🌟 Referências de Uso
