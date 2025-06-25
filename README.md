@@ -100,7 +100,7 @@
    Exemplo de uso:  
    `font-family: "inclusao";` ou 
    `font-family: var(--inclusao);`
- - **Geometos Rounded**  
+ - **Acme**  
    Exemplo de uso:  
    `font-family: "Acme";` ou 
    `font-family: var(--artistica);`
