@@ -27,21 +27,50 @@
 ## 🚀 Tecnologias Utilizadas
 
  <p align="left">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/2048px-Official_CSS_Logo.svg.png" title="CSS" alt="CSS" width="40" height="40"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/2048px-Official_CSS_Logo.svg.png" title="CSS" alt="CSS" width="40" height="40"/>
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
   </p>
+
+
+## 📂 Estrutura do Projeto
+
+ ```plaintext
+ cidadania-queer/
+ ├── css/                    # Arquivos CSS
+ │   ├── img-iframe.css       
+ │   ├── joao-pessoa-npm.css
+ │   ├── reset.css       
+ │   ├── responsive.css  
+ │   ├── style.css       
+ ├── docs/                   # Arquivos de documentação do projeto
+ │   ├── prototipos-de-tela/
+ │   ├── autorias.txt
+ ├── fonts/                  # Arquivos das fontes utilizadas  
+ │   ├── open-dyslexic.ttf
+ ├── img/                    # Imagens utilizadas 
+ ├── js/                     # Arquivos JavaScript
+ │   ├── menu.js 
+ │   ├── topo.js
+ ├── view/                     # Arquivos de páginas secundárias
+ │   ├── frames/
+ │   ├── joao-pessoa-npm.html
+ ├── .gitattributes
+ ├── index.html              # Arquivo principal de renderização
+ ├── LICENSE                 # Arquivo de licença do projeto
+ ├── README.md
+ ```
 
 
 ## 🌈 Cores
 
-| Cor     | Hexadecimal |
-| ------- | ----------- |
-| Rosa    | `#f2637e`   |
-| Roxa    | `#ad6ad9`   |
-| Verde   | `#04bf68`   |
-| Amarela | `#f2be5c`   |
-| Laranja | `#f2a25c`   |
+ | Cor     | Hexadecimal |
+ | ------- | ----------- |
+ | Rosa    | `#f2637e`   |
+ | Roxa    | `#ad6ad9`   |
+ | Verde   | `#04bf68`   |
+ | Amarela | `#f2be5c`   |
+ | Laranja | `#f2a25c`   |
 
 
 ## 🌟 Referências de Uso
