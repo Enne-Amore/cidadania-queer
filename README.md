@@ -62,6 +62,27 @@
  ```
 
 
+## 🛠️ Instalação Local
+
+ 1. **Clone o repositório**
+ 
+ No terminal, rode o seguinte comando:
+ 
+ ```bash
+ git clone https://github.com/Enne-Amore/cidadania-queer.git
+ ```
+ 
+ 2. **Entre no arquivo "index.html"**
+ 
+ 3. **Rode o arquivo principal de renderização:**
+ 
+ Clique com o botão direito do mouse e selecione a seguinte opção:
+ 
+ ```bash
+ Open with Live Server
+ ```
+
+
 ## 🌈 Cores
 
  | Cor     | Hexadecimal |
