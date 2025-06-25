@@ -3,7 +3,17 @@
  Website de divulgação de um espaço público focado na população queer, além de incluir também outras comunidades vulneráveis socialmente
 
  
-## 🪄 Funcionalidades
+## 🌐 Aplicação Hospedada
+
+ [Clique aqui para acessar o website](https://enne-amore.github.io/cidadania-queer/)
+
+
+## 🎞️ Pré-visualização
+
+ <img src="img/preview.gif" alt="Pré-visualização do site" width="340" height="200">
+
+
+## ⚡ Funcionalidades
 
  - Menu de navegação por seções abrível e fechável para telas menores
  - Barra horizontal de navegação por dentro da página para telas maiores
@@ -14,26 +24,16 @@
  - Botão de voltar ao topo da página
 
 
-## ✅ Demonstração
-
- [Clique aqui para acessar o website](https://enne-amore.github.io/cidadania-queer/)
-
-
-## 🎞️ Pré-visualização
-
- <img src="img/preview.gif" alt="Pré-visualização do site" width="340" height="200">
-
-
 ## 🚀 Tecnologias Utilizadas
 
  <p align="left">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS" alt="CSS" width="40" height="40"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/2048px-Official_CSS_Logo.svg.png" title="CSS" alt="CSS" width="40" height="40"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
   </p>
 
 
-## 🌈 Documentação De Cores
+## 🌈 Cores
 
 | Cor     | Hexadecimal |
 | ------- | ----------- |
@@ -44,7 +44,7 @@
 | Laranja | `#f2a25c`   |
 
 
-## 🌟 Referências De Uso
+## 🌟 Referências de Uso
 
  - [Fontes - Rel Preconnect](https://fonts.googleapis.com)
  - [Fontes - Rel Preconnect Crossorigin](https://fonts.gstatic.com)
@@ -58,5 +58,5 @@
 
 ## 🔧 Suporte
 
- Para me contatar como suporte, o meu email é Enne.Pessoa@gmail.com 
+ Para me contatar como suporte, o meu email é [Enne.Pessoa@gmail.com](mailto:Enne.Pessoa@gmail.com)
 
